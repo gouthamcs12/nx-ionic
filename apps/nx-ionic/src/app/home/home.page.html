@@ -25,4 +25,12 @@
       >
     </p>
   </div>
+  <div>
+    <a (click)="test()">Take Photo</a>
+  </div>
+  <ion-fab vertical="bottom" horizontal="right" slot="fixed">
+    <ion-fab-button (click)="addNewToGallery()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>
